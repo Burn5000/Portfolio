@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Dark background */
+    color: #e0e0e0; /* Light text color for readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #666699; /* Slightly lighter black for the header */
+    color: #6699ff; /* Bright blue text for contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #00aaff; /* Bright blue links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e0e0e0; /* Light color on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1a1a1a; /* Slightly lighter black for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.3); /* Blue shadow for effect */
+}
+
+section h2 {
+    margin-top: 0;
+    color: #00aaff; /* Bright blue for headings */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1a;
+    color: #00aaff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Job, Project, and Leadership Styles */
+.job, .project, .leadership-role {
+    margin-bottom: 20px;
+}
+
+.job h3, .project h3, .leadership-role h3 {
+    margin-bottom: 5px;
+    color: #00aaff;
+}
+
+/* Link Styles */
+a {
+    color: #00aaff; /* Blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e0e0e0; /* Light color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.2em;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
